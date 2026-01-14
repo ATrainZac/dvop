@@ -1,0 +1,30 @@
+{
+  "name": "student-mgmt",
+  "version": "1.0.0",
+  "description": "This is a project for the DVOPS subject.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "test-frontend:coverage": "node generate-coverage.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ash46011/student-mgmt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ash46011/student-mgmt/issues"
+  },
+  "homepage": "https://github.com/ash46011/student-mgmt#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.4"
+  }
+}

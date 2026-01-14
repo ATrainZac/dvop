@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Student</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Delete Student</h1>
+
+        <p>Enter the ID of the student you want to delete.</p>
+
+        <div class="form-group">
+            <label for="studentId">Student ID:</label>
+            <input type="text" id="studentId" placeholder="Enter student ID" required>
+        </div>
+
+        <button id="deleteBtn">Delete Student</button>
+
+        <p id="responseMessage"></p>
+    </div>
+
+    <script src="js/delete.js"></script>
+
+    <script>
+        document.getElementById("deleteBtn").addEventListener("click", function () {
+            let id = document.getElementById("studentId").value;
+
+            if (!id.trim()) {
+                alert("Please enter a Student ID.");
+                return;
+            }
+
+            deleteStudent(id);
+        });
+    </script>
+</body>
+</html>

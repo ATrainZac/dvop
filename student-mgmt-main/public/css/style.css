@@ -1,0 +1,106 @@
+:root {
+    color-scheme: dark light;
+    --bg: #0b0e13;
+    --fg: #e6ebf3;
+    --surface: #101317;
+    --border: #2c313a;
+}
+
+* {
+    box-sizing: border-box
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+    background: var(--bg);
+    color: var(--fg);
+}
+
+input,
+button,
+select,
+textarea {
+    font: inherit;
+}
+
+label {
+    font-weight: 600
+}
+
+input {
+    padding: .6rem .7rem;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: transparent;
+    color: inherit;
+}
+
+.btn {
+    padding: .6rem 1rem;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: inherit;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    filter: brightness(1.15);
+}
+
+.btn:focus,
+input:focus {
+    outline: 2px solid #6aa9ff33;
+    outline-offset: 2px;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+header h1 {
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.25rem;
+}
+
+.card h2 {
+    margin: 0 0 .5rem;
+    font-size: 1.1rem;
+}
+
+.card p {
+    margin: 0 0 .75rem;
+    color: #96a0af;
+    font-size: .95rem;
+}

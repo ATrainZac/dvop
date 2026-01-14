@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduTrack · Search Students by Name</title>
+    <link rel="stylesheet" href="/css/view-style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+            <h1>Search Students</h1>
+            <nav>
+                <a class="btn" href="/index.html">Home</a>
+            </nav>
+        </header>
+
+        <section style="margin-bottom:1.5rem;">
+            <h2 style="margin-bottom:0.5rem;">Search by Name</h2>
+            <form id="searchForm" style="display:flex;gap:0.75rem;flex-wrap:wrap;align-items:flex-end;">
+                <label style="flex:1;min-width:220px;">
+                    Name
+                    <input id="nameInput" type="text" placeholder="e.g., Rachel, ra, mar" />
+                </label>
+                <button class="btn" type="submit">Search</button>
+            </form>
+        </section>
+
+        <div id="message" class="muted" role="status">
+            Enter a name and click "Search" to see results.
+        </div>
+
+        <div style="overflow:auto;margin-top:0.75rem;">
+            <table aria-label="Students list">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Course</th>
+                        <th>GPA</th>
+                    </tr>
+                </thead>
+                <tbody id="studentsBody">
+                    <!-- Results will appear here AFTER clicking Search -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="/js/view.js"></script>
+</body>
+
+</html>

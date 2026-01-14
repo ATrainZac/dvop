@@ -1,0 +1,23 @@
+[
+  {
+    "id": "S10001",
+    "name": "John Tan",
+    "email": "john.tan@tp.edu.sg",
+    "course": "Diploma in Information Technology",
+    "gpa": 3.85
+  },
+  {
+    "id": "S10002",
+    "name": "Aisyah Rahman",
+    "email": "aisyah.rahman@tp.edu.sg",
+    "course": "Diploma in Cybersecurity",
+    "gpa": 3.5
+  },
+  {
+    "id": "S10003",
+    "name": "Marcus Lee",
+    "email": "marcus.lee@tp.edu.sg",
+    "course": "Diploma in Data Science",
+    "gpa": 3.9
+  }
+]
