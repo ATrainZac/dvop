@@ -8,6 +8,11 @@ const TEMPLATE_FILE = path.join('utils', 'students.template.json');
 async function addStudent(req, res) {
     try {
         const { name, email, course, gpa } = req.body;
+        
+        if (!name || !email || !course || gpa === undefined) {
+            return res.status(400).json({ message: 'Missing required fields' });
+        }
+        
         const newStudent = new Student(name, email, course, parseFloat(gpa));
         
         let students = [];
@@ -26,7 +31,7 @@ async function addStudent(req, res) {
         
         students.push(newStudent);
         await fs.writeFile(STUDENTS_FILE, JSON.stringify(students, null, 2), 'utf8');
-        return res.status(201).json(students);
+        return res.status(201).json({ message: 'Student added successfully', student: newStudent });
     } catch (error) {
         console.error(error);
         return res.status(500).json({ message: error.message });

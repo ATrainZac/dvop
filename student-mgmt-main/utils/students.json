@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Mocha Test Student",
+    "email": "mocha.test@tp.edu.sg",
+    "course": "Diploma in IT",
+    "gpa": 3.7,
+    "id": "1768361932827910"
+  },
+  {
+    "name": "Low GPA Student",
+    "email": "low.gpa@tp.edu.sg",
+    "course": "Diploma in Business",
+    "gpa": 0,
+    "id": "1768361932846119"
+  },
+  {
+    "name": "High GPA Student",
+    "email": "high.gpa@tp.edu.sg",
+    "course": "Diploma in Engineering",
+    "gpa": 4,
+    "id": "1768361932859474"
+  },
+  {
+    "name": "Mocha Test Student",
+    "email": "mocha.test@tp.edu.sg",
+    "course": "Diploma in IT",
+    "gpa": 3.7,
+    "id": "1768361955030952"
+  },
+  {
+    "name": "Low GPA Student",
+    "email": "low.gpa@tp.edu.sg",
+    "course": "Diploma in Business",
+    "gpa": 0,
+    "id": "1768361955053116"
+  },
+  {
+    "name": "High GPA Student",
+    "email": "high.gpa@tp.edu.sg",
+    "course": "Diploma in Engineering",
+    "gpa": 4,
+    "id": "1768361955070363"
+  },
+  {
+    "name": "Mocha Test Student",
+    "email": "mocha.test@tp.edu.sg",
+    "course": "Diploma in IT",
+    "gpa": 3.7,
+    "id": "1768361959069441"
+  },
+  {
+    "name": "Low GPA Student",
+    "email": "low.gpa@tp.edu.sg",
+    "course": "Diploma in Business",
+    "gpa": 0,
+    "id": "1768361959093315"
+  },
+  {
+    "name": "High GPA Student",
+    "email": "high.gpa@tp.edu.sg",
+    "course": "Diploma in Engineering",
+    "gpa": 4,
+    "id": "1768361959109972"
+  },
+  {
+    "name": "API Test Student",
+    "email": "api.test@tp.edu.sg",
+    "course": "Diploma in Information Technology",
+    "gpa": 3.5,
+    "id": "1768362130586892"
+  },
+  {
+    "name": "Low GPA Student",
+    "email": "low.gpa@tp.edu.sg",
+    "course": "Diploma in Business",
+    "gpa": 0,
+    "id": "1768362130615353"
+  },
+  {
+    "name": "High GPA Student",
+    "email": "high.gpa@tp.edu.sg",
+    "course": "Diploma in Engineering",
+    "gpa": 4,
+    "id": "1768362130630531"
+  },
+  {
+    "name": "Mocha Test Student",
+    "email": "mocha.test@tp.edu.sg",
+    "course": "Diploma in IT",
+    "gpa": 3.7,
+    "id": "1768362134991312"
+  },
+  {
+    "name": "Low GPA Student",
+    "email": "low.gpa@tp.edu.sg",
+    "course": "Diploma in Business",
+    "gpa": 0,
+    "id": "1768362135018072"
+  },
+  {
+    "name": "High GPA Student",
+    "email": "high.gpa@tp.edu.sg",
+    "course": "Diploma in Engineering",
+    "gpa": 4,
+    "id": "1768362135034609"
+  },
+  {
+    "name": "API Test Student",
+    "email": "api.test@tp.edu.sg",
+    "course": "Diploma in Information Technology",
+    "gpa": 3.5,
+    "id": "1768362146018181"
+  },
+  {
+    "name": "Low GPA Student",
+    "email": "low.gpa@tp.edu.sg",
+    "course": "Diploma in Business",
+    "gpa": 0,
+    "id": "1768362146046973"
+  },
+  {
+    "name": "High GPA Student",
+    "email": "high.gpa@tp.edu.sg",
+    "course": "Diploma in Engineering",
+    "gpa": 4,
+    "id": "1768362146061764"
+  },
+  {
+    "name": "Mocha Test Student",
+    "email": "mocha.test@tp.edu.sg",
+    "course": "Diploma in IT",
+    "gpa": 3.7,
+    "id": "1768362152390381"
+  },
+  {
+    "name": "Low GPA Student",
+    "email": "low.gpa@tp.edu.sg",
+    "course": "Diploma in Business",
+    "gpa": 0,
+    "id": "1768362152418789"
+  },
+  {
+    "name": "High GPA Student",
+    "email": "high.gpa@tp.edu.sg",
+    "course": "Diploma in Engineering",
+    "gpa": 4,
+    "id": "1768362152434878"
+  },
+  {
+    "name": "Mocha Test Student",
+    "email": "mocha.test@tp.edu.sg",
+    "course": "Diploma in IT",
+    "gpa": 3.7,
+    "id": "1768362324872454"
+  },
+  {
+    "name": "Low GPA Student",
+    "email": "low.gpa@tp.edu.sg",
+    "course": "Diploma in Business",
+    "gpa": 0,
+    "id": "1768362324896611"
+  },
+  {
+    "name": "High GPA Student",
+    "email": "high.gpa@tp.edu.sg",
+    "course": "Diploma in Engineering",
+    "gpa": 4,
+    "id": "1768362324913737"
+  },
+  {
+    "name": "Mocha Test Student",
+    "email": "mocha.test@tp.edu.sg",
+    "course": "Diploma in IT",
+    "gpa": 3.7,
+    "id": "1768362424365869"
+  },
+  {
+    "name": "Low GPA Student",
+    "email": "low.gpa@tp.edu.sg",
+    "course": "Diploma in Business",
+    "gpa": 0,
+    "id": "1768362424393170"
+  },
+  {
+    "name": "High GPA Student",
+    "email": "high.gpa@tp.edu.sg",
+    "course": "Diploma in Engineering",
+    "gpa": 4,
+    "id": "1768362424408340"
+  },
+  {
+    "name": "Mocha Test Student",
+    "email": "mocha.test@tp.edu.sg",
+    "course": "Diploma in IT",
+    "gpa": 3.7,
+    "id": "1768362489341681"
+  },
+  {
+    "name": "Low GPA Student",
+    "email": "low.gpa@tp.edu.sg",
+    "course": "Diploma in Business",
+    "gpa": 0,
+    "id": "1768362489365019"
+  },
+  {
+    "name": "High GPA Student",
+    "email": "high.gpa@tp.edu.sg",
+    "course": "Diploma in Engineering",
+    "gpa": 4,
+    "id": "1768362489382743"
+  },
+  {
+    "name": "API Test Student",
+    "email": "api.test@tp.edu.sg",
+    "course": "Diploma in Information Technology",
+    "gpa": 3.5,
+    "id": "1768363075156857"
+  },
+  {
+    "name": "Low GPA Student",
+    "email": "low.gpa@tp.edu.sg",
+    "course": "Diploma in Business",
+    "gpa": 0,
+    "id": "1768363075192725"
+  },
+  {
+    "name": "High GPA Student",
+    "email": "high.gpa@tp.edu.sg",
+    "course": "Diploma in Engineering",
+    "gpa": 4,
+    "id": "1768363075212977"
+  },
+  {
+    "name": "Mocha Test Student",
+    "email": "mocha.test@tp.edu.sg",
+    "course": "Diploma in IT",
+    "gpa": 3.7,
+    "id": "1768365604314476"
+  },
+  {
+    "name": "Low GPA Student",
+    "email": "low.gpa@tp.edu.sg",
+    "course": "Diploma in Business",
+    "gpa": 0,
+    "id": "1768365604343460"
+  },
+  {
+    "name": "High GPA Student",
+    "email": "high.gpa@tp.edu.sg",
+    "course": "Diploma in Engineering",
+    "gpa": 4,
+    "id": "1768365604362783"
+  },
+  {
+    "name": "Mocha Test Student",
+    "email": "mocha.test@tp.edu.sg",
+    "course": "Diploma in IT",
+    "gpa": 3.7,
+    "id": "1768365617934344"
+  },
+  {
+    "name": "Low GPA Student",
+    "email": "low.gpa@tp.edu.sg",
+    "course": "Diploma in Business",
+    "gpa": 0,
+    "id": "1768365617968670"
+  },
+  {
+    "name": "High GPA Student",
+    "email": "high.gpa@tp.edu.sg",
+    "course": "Diploma in Engineering",
+    "gpa": 4,
+    "id": "1768365617987484"
+  },
+  {
+    "name": "Mocha Test Student",
+    "email": "mocha.test@tp.edu.sg",
+    "course": "Diploma in IT",
+    "gpa": 3.7,
+    "id": "1768365695007851"
+  },
+  {
+    "name": "Low GPA Student",
+    "email": "low.gpa@tp.edu.sg",
+    "course": "Diploma in Business",
+    "gpa": 0,
+    "id": "1768365695036497"
+  },
+  {
+    "name": "High GPA Student",
+    "email": "high.gpa@tp.edu.sg",
+    "course": "Diploma in Engineering",
+    "gpa": 4,
+    "id": "1768365695053857"
+  },
+  {
+    "name": "Mocha Test Student",
+    "email": "mocha.test@tp.edu.sg",
+    "course": "Diploma in IT",
+    "gpa": 3.7,
+    "id": "1768365733976432"
+  },
+  {
+    "name": "Low GPA Student",
+    "email": "low.gpa@tp.edu.sg",
+    "course": "Diploma in Business",
+    "gpa": 0,
+    "id": "1768365734001956"
+  },
+  {
+    "name": "High GPA Student",
+    "email": "high.gpa@tp.edu.sg",
+    "course": "Diploma in Engineering",
+    "gpa": 4,
+    "id": "1768365734017025"
+  },
+  {
+    "name": "Mocha Test Student",
+    "email": "mocha.test@tp.edu.sg",
+    "course": "Diploma in IT",
+    "gpa": 3.7,
+    "id": "1768365804995402"
+  },
+  {
+    "name": "Low GPA Student",
+    "email": "low.gpa@tp.edu.sg",
+    "course": "Diploma in Business",
+    "gpa": 0,
+    "id": "1768365805022516"
+  },
+  {
+    "name": "High GPA Student",
+    "email": "high.gpa@tp.edu.sg",
+    "course": "Diploma in Engineering",
+    "gpa": 4,
+    "id": "1768365805042340"
+  }
+]

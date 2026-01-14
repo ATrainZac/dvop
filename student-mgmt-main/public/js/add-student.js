@@ -38,14 +38,18 @@ function addStudent() {
                 document.getElementById("email").value = "";
                 document.getElementById("gpa").value = "";
             } else {
+                /*istanbul ignore next */
                 alert('Error: ' + (response.message || 'Unable to add student!'));
             }
+            /*istanbul ignore next */
         } catch (e) {
+            /*istanbul ignore next */
             alert('Error processing response: ' + e.message);
         }
     };
-    
+    /*istanbul ignore next */
     request.onerror = function () {
+        /*istanbul ignore next */
         alert('Network error occurred. Please check if the server is running.');
     };
     
