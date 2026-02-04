@@ -34,10 +34,10 @@ describe('Unit Tests for Utils', () => {
 
             expect(res.status).toHaveBeenCalledWith(201);
             const response = res.json.mock.calls[0][0];
-            expect(response).toHaveLength(1);
-            expect(response[0].name).toEqual('Jane Doe');
-            expect(response[0].email).toEqual('jane.doe@tp.edu.sg');
-            expect(response[0].gpa).toEqual(3.75);
+            expect(response.message).toEqual('Student added successfully');
+            expect(response.student.name).toEqual('Jane Doe');
+            expect(response.student.email).toEqual('jane.doe@tp.edu.sg');
+            expect(response.student.gpa).toEqual(3.75);
         });
 
         it('should add a student to existing students', async () => {
@@ -59,8 +59,8 @@ describe('Unit Tests for Utils', () => {
 
             expect(res.status).toHaveBeenCalledWith(201);
             const response = res.json.mock.calls[0][0];
-            expect(response).toHaveLength(2);
-            expect(response[1].name).toEqual('Mary Lee');
+            expect(response.message).toEqual('Student added successfully');
+            expect(response.student.name).toEqual('Mary Lee');
         });
 
         it('should handle file not found and use template', async () => {
@@ -102,8 +102,8 @@ describe('Unit Tests for Utils', () => {
             await addStudent(req, res);
 
             const response = res.json.mock.calls[0][0];
-            expect(response[0].gpa).toBe(3.99);
-            expect(typeof response[0].gpa).toBe('number');
+            expect(response.student.gpa).toBe(3.99);
+            expect(typeof response.student.gpa).toBe('number');
         });
 
         it('should generate unique student ID', async () => {
@@ -124,8 +124,8 @@ describe('Unit Tests for Utils', () => {
             await addStudent(req, res);
 
             const response = res.json.mock.calls[0][0];
-            expect(response[0].id).toBeDefined();
-            expect(typeof response[0].id).toBe('string');
+            expect(response.student.id).toBeDefined();
+            expect(typeof response.student.id).toBe('string');
         });
 
         it('should handle file read error', async () => {
