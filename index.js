@@ -30,10 +30,12 @@ app.post('/api/students', addStudent);
 
 server = app.listen(PORT, function () {
     const address = server.address();
-    const baseUrl = `http://${address.address == "::" ? 'localhost' :
-        /* istanbul ignore next */
-        address.address}:${address.port}`;
-    console.log(`DVOPS project at: ${baseUrl}`);
+    if (address) {
+        const baseUrl = `http://${address.address == "::" ? 'localhost' :
+            /* istanbul ignore next */
+            address.address}:${address.port}`;
+        console.log(`DVOPS project at: ${baseUrl}`);
+    }
 });
 
 module.exports = { app, server };
